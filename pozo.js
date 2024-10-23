@@ -6,7 +6,7 @@ async function init() {
 init();
 async function getUser() {
 
-  const fechaObjetivo = new Date('2024-10-24T00:00:00');
+  const fechaObjetivo = new Date('2024-10-25T00:00:00');
 
   const contador = document.getElementById('title1');
   const imagen = document.getElementById('imagen');
@@ -18,7 +18,7 @@ async function getUser() {
     if (dias > 1) {
       console.log("imagen", imagen)
       imagen.src = 'img/img1.jpg';
-    } else if (dias == 1) {
+    } else if (dias <= 1) {
       console.log("imagen", imagen)
       imagen.src = 'img/img2.jpg';
     }
