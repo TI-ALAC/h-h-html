@@ -6,7 +6,7 @@ async function init() {
 init();
 async function getUser() {
 
-  const fechaObjetivo = new Date('2024-10-26T00:00:00');
+  const fechaObjetivo = new Date('2024-10-27T00:00:00');
 
   const contador = document.getElementById('title1');
   const imagen = document.getElementById('imagen');
